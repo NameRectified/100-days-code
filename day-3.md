@@ -14,6 +14,25 @@
 - findSmallest(): Store the first element as the smallest and its index as smallest_index. Then loop through the array starting from 2 element(index 1) all the way to the end of the array, using an if condition if you find a smaller element in the array update the smallest and smallest_index variables, return the smallest_index
 - selectionSort(): create a new empty array, loop through the array from the beginning, find index of smallest element by calling findSmallest(), pop that element from the array and store that element and add it to the new array. return the new array.
 - As we are going through all the elements in the list O(n) and we are doing this n times, the time complexity of selection sort is O(n^2)
+```
+def smallest_element_idx(arr):
+    smallest = arr[0]
+    smallest_idx = 0
+    for i in range(1,len(arr)):
+        if arr[i] < smallest:
+            smallest = arr[i]
+            smallest_idx = i
+    return smallest_idx
+
+def selection_sort(arr):
+    new_arr = []
+    for _ in range(len(arr)):
+        smallest = smallest_element_idx(arr)
+        new_arr.append(arr.pop(smallest))
+    return new_arr
+
+print(selection_sort([1,5,3,2]))
+```
 
 ### Exercise:
 
