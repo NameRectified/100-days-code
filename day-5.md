@@ -13,6 +13,19 @@
 - Best, average case: O(n logn) (when the left and right arrays are balanced, that is a good pivot is chosen)
 - Worst case: O(n^2) (when the left and right arrays are imbalanced, that is the pivot is either the smallest or largest element
 - So the runtime of this algorithm depends on the pivot chosen
+    ```
+    def quicksort(arr):
+	if len(arr) < 2:
+	    return arr
+	else:
+	    pivot = arr[0]
+	    lesser = [i for i in arr[1:] if i<pivot]
+	    greater = [i for i in arr[1:] if i >= pivot]
+	    return quicksort(lesser) + [pivot] + quicksort(greater)
+	 
+    print(quicksort([1, 9, 2,4]))
+    ```
+
 
 ### Big O notation revisited
 
