@@ -11,3 +11,5 @@ Day 7: [Grokking Algorithms Chapter 6](day-07.md)
 Day 8: [Grokking Algorithms Chapter 7](day-08.md)
 
 Day 9: [Grokking Algorithms Chapter 8](day-09.md)
+
+Day 10: [Grokking Algorithms Chapter 9](day-10.md)
