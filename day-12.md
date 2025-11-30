@@ -1,0 +1,44 @@
+## Day 12
+
+In the final chapter of the book the author covered various algorithms that are used for different applications. He wants us to deep dive into the topics that interest us.
+
+- Binary Search Tree: All elements smaller than the current node go to the left and elemets greater go to the right. This is the way the BST is structured and it has O(logn) search, insertion and deletion.
+    - They are useful because in a sorted array although the searching time using binary search is o(logn), we have to resort the array evertime we insert a new element and this is expensive, so bst’s are better as we dont have to restructure the whole data when we delete elements
+    - If you are interested in `databases` checkout B-trees, red-black trees, heaps and splay trees.
+- Inverted index: A datastructure that maps words to the places they appear. It is used to build `search engines`. So this is a good place to start if you are interested in search
+- Fourier transform: It has many use cases
+    - Given something is can seperate it into its individual components
+    - It is great for processing signals
+    - It is used for compression
+    - It can also be used to a build an app like Shazam that guesses the song that is playing
+    - [Resource for reading about fourier transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+- Parallel algorithms: If you are interested in theoretical side of scalability and performance read about `parallel algorithms` and `distributed algorithm`
+    - Check out `mapreduce` algortihm and it can be used through `apache hadoop`
+- Probablistic algorithms:
+    - Bloom filters: They are probablistic data structures. For use cases where the hashes can get very huge, bloom filters can be used.
+        - They give answers that could be wrong but are probably correct
+        - `False positives` are possible, but not `false negatives`
+        - They are great because they take up very little space
+    - Hyperloglog: It approximates the number of unique elements in a set
+        - Like bloom filters it does not give an exact answer but comes very close and uses only fraction of the memory
+    - If you have a lot of data and are satisfied with approximate answers, start with probablistic algorithms
+- SHA (Secure Hash Algortihm) algorithms:
+    - While hash functions for hash tables mapped a string to an array index, SHA goes from a string to a string
+    - It can be used to tell if two files are same. (I have seen many softwares providing SHA codes next to their installers, never knew how to use them, i guess when we install the software we can use an online tool to calculate the sha hash of a file and compare with the original hash present on the website
+    - It is also useful for comparing two strings without revealing the original strings, eg: comparing the password the user entered to the hashed version stored in the database, this way even if there is a databreach the hacker will not be able to guess the original password
+    - It is used to hash passwords
+    - You can get a hash from a string but not a string from a hash
+    - If interested in `hashing` or `password hashing` check out `SHA family algorithms`, `bcrypt`
+- Locality sensitive hashing:
+    - SHA algorithms are locality insensitive i.e changing just a single character gives a totally different hash
+    - If you want a locality sensitive hash function, the Simhash is used. Making a small change to the string changes the hashstring only a little
+    - Google uses simhash to detect duplicates while crawling the web
+    - It is useful for checking similar items
+- Cryptography:
+    - `Diffie-Hellman` algorithm  solves the age old problem of encrypting a message so that it can only be read by the person you sent the message to.
+    - It has two keys: a public and private key. When you want to send a message, you use public key to encrypt and the message can only be decrypted using private key
+    - If you are interested in `cryptography` check out `Diffie-Hellma` and RSA
+- Linear programming: It is used to maximize something given some constraints
+    - All the graph algorithms can be done with linear programming. Linear Programming is a more general framework and graph problems are a subset of that
+    - It uses the `simplex` algorithm.
+    - If you are interested in `optimization` check out `linear programming`
