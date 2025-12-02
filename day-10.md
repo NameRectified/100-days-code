@@ -12,3 +12,9 @@
 - The values in the grid are usually what we are trying to optimize
 - As each cell is a subproblem, we must think about how we can divide the problem into smaller subproblems
 - There isn’t a single formula for calculating a dynamic programming solution
+
+### Exercises
+
+9.1) Yes, iphone (1lb), guitar (1lb), mp3(1lb), total value 4500 which is maximum although 1lb of space is still left
+
+9.2) water, food, camera
