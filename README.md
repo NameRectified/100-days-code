@@ -18,7 +18,9 @@ Day 11: [Grokking Algorithms Chapter 10](day-11.md)
 
 Day 12: [Grokking Algorithms Chapter 11](day-12.md)
 
-Day 12: [Grokking Algorithms revision](day-13.md)
+Day 13: [Grokking Algorithms revision](day-13.md)
+
+Day 14: [Grokking Algorithms revision](day-14.md)
 
 
 
