@@ -22,5 +22,7 @@ Day 13: [Grokking Algorithms revision](day-13.md)
 
 Day 14: [Grokking Algorithms revision](day-14.md)
 
+Day 15: [Datacamp: Supervised learning with scikit-learn](day-15.md)
+
 
 
