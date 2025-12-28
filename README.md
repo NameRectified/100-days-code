@@ -26,5 +26,8 @@ Day 15: [Datacamp: Supervised learning with scikit-learn](day-15.md)
 
 Day 16: [Datacamp: Supervised learning with scikit-learn continued](day-16.md)
 
+Day 17: [Datacamp: Supervised learning with scikit-learn contiued and Predictive Modeling for agriculture project](day-17.md)
+
+
 
 
