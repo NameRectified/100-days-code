@@ -30,6 +30,8 @@ Day 17: [Datacamp: Supervised learning with scikit-learn continued and Predictiv
 
 Day 18: [Datacamp: Unspervised learning with python](day-18.md)
 
+Day 19: [Datacamp: Unspervised learning with python](day-19.md)
+
 
 
 
