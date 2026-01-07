@@ -34,6 +34,8 @@ Day 19: [Datacamp: Unspervised learning with python](day-19.md)
 
 Day 20: [Datacamp: Unspervised learning with python](day-20.md)
 
+Day 21: [Datacamp: Unspervised learning with python](day-21.md)
+
 
 
 
