@@ -40,6 +40,8 @@ Day 22: [Datacamp: Unspervised learning with python](day-22.md)
 
 Day 23: [Datacamp: Introduction to deep learning with pytorch](day-23.md)
 
+Day 24: [Datacamp: Introduction to deep learning with pytorch](day-24.md)
+
 
 
 
