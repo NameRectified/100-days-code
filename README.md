@@ -42,6 +42,8 @@ Day 23: [Datacamp: Introduction to deep learning with pytorch](day-23.md)
 
 Day 24: [Datacamp: Introduction to deep learning with pytorch](day-24.md)
 
+Day 25: [Datacamp: Introduction to deep learning with pytorch](day-25.md)
+
 
 
 
