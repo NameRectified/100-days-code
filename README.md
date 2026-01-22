@@ -46,6 +46,8 @@ Day 25: [Datacamp: Introduction to deep learning with pytorch](day-25.md)
 
 Day 26: [Datacamp: Intermediate Python](day-26.md)
 
+Day 27: [Datacamp: Intermediate Python](day-27.md)
+
 
 
 
