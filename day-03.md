@@ -2,8 +2,8 @@
 
 - Linked lists are good for insertion. Even if there are’nt enough contiguous blocks of memory, the elements can be inerted in empty blocks that are not continuous as each element has the address of the next.
 - Arrays are great for accessing elements in random order as we know the address of every element in the array, where as for a linked list to access an element we have to start from the very first element and reach our desired element.
-- Lists have a constant insertion time and linear reading time, where as arrays have a constant reading time and linear insertion time.
-- Lists are also better if we want to insert elemets into the middle or delete an element.
+- Linked lists have a constant insertion time and linear reading time, where as arrays have a constant reading time and linear insertion time.
+- Linked lists are also better if we want to insert elements into the middle or delete an element.
 - Insertions may fail if there is not enough space in memory but deletions always work
 - Arrays provide random access, where as linked lists provide sequential access
 - Elements in array have to be of the same data type, but list can contain mixed data types.
@@ -36,12 +36,12 @@ print(selection_sort([1,5,3,2]))
 
 ### Exercise:
 
-2.1 ) If we have lots of inserts and few reads we should use a list.
+2.1 ) If we have lots of inserts and few reads we should use a linked list.
 
-2.2) As elements(orders) are constantly being inserted and deleted and the orders are executed sequentially(that is reading speed does not matter), lists are a better choice
+2.2) As elements(orders) are constantly being inserted and deleted and the orders are executed sequentially(that is no random access and reading speed does not matter), linked lists are a better choice
 
-2.3) As for allowing a valid user to login requires reading the credentials and since the problem mentions users login multiple times, credentials are added to the database only once, so as there are more read operations than write operations, array will be my choice
+2.3) As for allowing a valid user to login requires reading the credentials and since the problem mentions users login multiple times, i.e we have to read multiple times the credentials but credentials are added to the database only once, so as there are more read operations than write (insertion) operations, array will be my choice
 
-2.4) We might run out contiguous blocks of memory and have to copy the users array to a new location, as the insertion in an array is very slow and since we are using binary search, we may need to insert the element somewhere in the middle of the array, and when we insert we have to move each element by one block
+2.4)Downsides of using array for facebook list of users: We might run out contiguous blocks of memory and have to copy the users array to a new location, as the insertion in an array is very slow and since we are using binary search, we may need to insert the element somewhere in the middle of the array (as binary search expects the data to be sorted), and when we insert we have to move each element by one block
 
-2.5) it will be faster as the insertion time is constant and the reading time is also faster as although we are going through the whole list for searching a user we are going to go through only 1 of the 26 available lists
+2.5) consider a hybrid datastructure (an  array of linked lists): it will be faster as the insertion time is constant and the reading time is also faster as although we are going through the whole list for searching a user we are going to go through only 1 of the 26 available lists
