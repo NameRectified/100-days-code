@@ -52,6 +52,8 @@ Day 28: [Datacamp: Data Manipulation with Pandas](day-28.md)
 
 Day 29: [Datacamp: Data Manipulation with Pandas](day-29.md)
 
+Day 30: [Datacamp: Data Manipulation with Pandas](day-30.md)
+
 
 
 
