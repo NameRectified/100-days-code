@@ -56,6 +56,8 @@ Day 30: [Datacamp: Data Manipulation with Pandas](day-30.md)
 
 Day 31: [DSA revision, pytorch fundamentals](day-31.md)
 
+Day 32: [DSA](day-32.md)
+
 
 
 
