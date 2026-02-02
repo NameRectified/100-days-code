@@ -58,6 +58,8 @@ Day 31: [DSA revision, pytorch fundamentals](day-31.md)
 
 Day 32: [DSA](day-32.md)
 
+Day 33: [DSA: Basic problems my solutions](day-33.md)
+
 
 
 
