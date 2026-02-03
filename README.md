@@ -60,6 +60,8 @@ Day 32: [DSA](day-32.md)
 
 Day 33: [DSA: Basic problems my solutions](day-33.md)
 
+Day 34: [DSA: Sort array, sort colors, longest substring with unique characters](day-34.md)
+
 
 
 
