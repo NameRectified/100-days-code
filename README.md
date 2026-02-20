@@ -62,6 +62,8 @@ Day 33: [DSA: Basic problems my solutions](day-33.md)
 
 Day 34: [DSA: Sort array, sort colors, longest substring with unique characters](day-34.md)
 
+Day 35: [Datacamp: Working with open ai api](day-35.md)
+
 
 
 
