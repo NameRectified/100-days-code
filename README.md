@@ -64,6 +64,8 @@ Day 34: [DSA: Sort array, sort colors, longest substring with unique characters]
 
 Day 35: [Datacamp: Working with open ai api](day-35.md)
 
+Day 36: [Datacamp: Working with open ai api and python iterators](day-36.md)
+
 
 
 
