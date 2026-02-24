@@ -66,6 +66,10 @@ Day 35: [Datacamp: Working with open ai api](day-35.md)
 
 Day 36: [Datacamp: Working with open ai api and python iterators](day-36.md)
 
+Day 37: [Datacamp: Python toolbox](day-37.md)
+
+Day 38: [Datacamp: OpenAI Embeddings](day-38.md)
+
 
 
 
