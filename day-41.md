@@ -1,0 +1,4 @@
+- DSA: Revised maximum water container, k-frequent elements
+- Completed CS50x flask lecture
+- NPTEL Forest management and cryptography
+- Improved Linkedin profile
