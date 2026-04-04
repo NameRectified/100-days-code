@@ -1,0 +1,2 @@
+- Continue doing cs50x pset 9 problem 2
+- Revised maximum container capacity, palindrome, next lexicographical sequence, verify sudoku board

@@ -1,0 +1,2 @@
+- Completed cs50x pset problem 1
+- Revised pair sum sorted.
